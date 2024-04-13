@@ -61,5 +61,7 @@ sse.addEventListener('error', () => {});
 
 - 监听客户端关闭事件，释放资源
   ```
-  res.end();
+  req.client.on('close', () => {
+    res.end();
+  });
   ```
