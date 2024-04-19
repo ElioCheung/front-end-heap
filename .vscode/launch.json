@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Debug SSE",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/SSE/server.js"
+      "program": "${workspaceFolder}/Web-APIs/SSE/server.js"
     }
   ]
 }
