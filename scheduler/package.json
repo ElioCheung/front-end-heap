@@ -1,0 +1,23 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "源码分析 - 调度器 - React 18.2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm ./test/index.js",
+    "test": "jest --verbose"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "Elio",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "babel-jest": "^29.7.0",
+    "esm": "^3.2.25",
+    "jest": "^29.7.0"
+  }
+}
